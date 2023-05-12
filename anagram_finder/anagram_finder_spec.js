@@ -4,7 +4,6 @@ const AnagramFinder = require('./anagram_finder.js');
 describe('AnagramFinder', function () {
   it('should be able to detect an anagram', function () {
     const anagramFinder = new AnagramFinder('act');
-    console.log(letters)
     assert.deepStrictEqual(anagramFinder.findAnagrams(['cat', 'dog']), ['cat']);
   });
 
